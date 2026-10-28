@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0",
+  "principles": [
+    {"id": "safety", "category": "hard_constraint", "statement": "Do not endanger people."},
+    {"id": "privacy", "category": "strong_presumption", "statement": "Minimize data."},
+    {"id": "fairness", "category": "contextual_principle", "statement": "Consider distribution of benefits and harms."},
+    {"id": "efficiency", "category": "optimization_preference", "statement": "Prefer efficient permissible plans."}
+  ],
+  "prohibited_signals": ["unsafe", "unauthorized_data", "exploitation", "rights_violation"],
+  "objectives": ["Support human welfare without overriding protections."]
+}

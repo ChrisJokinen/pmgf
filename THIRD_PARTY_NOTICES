@@ -1,0 +1,52 @@
+PMGF third-party inventory
+==========================
+PMGF original implementation: Apache-2.0. No external code or datasets were
+vendored. Example identities, records and scenarios are synthetic. The proposed
+PMGF architecture and baseline rules implement the project specification, not
+an external moral standard or a validated moral theory.
+
+Runtime packages (Python Package Index names; authoritative notices remain in
+each installed distribution):
+  pydantic 2.12.3             MIT               github.com/pydantic/pydantic
+  pydantic_core 2.41.4        MIT               github.com/pydantic/pydantic-core
+  annotated-types 0.8.0       MIT               github.com/annotated-types/annotated-types
+  typing_extensions 4.16.0   PSF-2.0           github.com/python/typing_extensions
+  typing-inspection 0.4.4    MIT               github.com/pydantic/typing-inspection
+
+Development/build packages:
+  pytest 8.4.2               MIT               github.com/pytest-dev/pytest
+  iniconfig 2.3.1            MIT               github.com/pytest-dev/iniconfig
+  packaging 26.3             Apache-2.0 OR BSD-2-Clause
+                                               github.com/pypa/packaging
+  pluggy 1.7.0               MIT               github.com/pytest-dev/pluggy
+  Pygments 2.21.0            BSD-2-Clause      github.com/pygments/pygments
+  mypy 1.18.2                MIT               github.com/python/mypy
+  mypy_extensions 1.1.0      MIT               github.com/python/mypy_extensions
+  pathspec 1.1.1             MPL-2.0           github.com/cpburnz/python-pathspec
+  ruff 0.14.2                MIT               github.com/astral-sh/ruff
+  setuptools 80.9.0          MIT               github.com/pypa/setuptools
+
+Bootstrap tooling:
+  pip (environment-provided) MIT               github.com/pypa/pip
+Python standard library: Python Software Foundation license.
+SQLite, bundled by Python: public domain dedication, sqlite.org/copyright.html.
+
+CI actions, pinned to release commits:
+  actions/checkout v4.2.2    MIT               github.com/actions/checkout
+  actions/setup-python v5.6.0 MIT              github.com/actions/setup-python
+Their bundled dependencies retain their upstream notices; this inventory does
+not relicense them or reproduce an action's full transitive software bill of
+materials. Ruff and pydantic-core binaries likewise include upstream dependency
+notices; inspect their distributions before redistribution.
+
+Concept/provenance references (no endorsement or compliance claim):
+  Apache License 2.0: https://www.apache.org/licenses/LICENSE-2.0
+  SPDX identifiers: https://spdx.org/licenses/
+  NIST AI RMF 1.0: https://doi.org/10.6028/NIST.AI.100-1
+    Related governance/risk vocabulary; PMGF does not implement or certify it.
+  Saltzer and Schroeder, "The Protection of Information in Computer Systems"
+    (1975), https://doi.org/10.1109/PROC.1975.9939
+    Prior work on least privilege, fail-safe defaults, and complete mediation.
+No text or code from those publications was copied. Records use ordinary
+SHA-256 chaining, not a novel or tamper-proof ledger. Attribution grants no
+additional ownership rights beyond applicable licenses.
