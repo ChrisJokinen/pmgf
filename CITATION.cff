@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this prototype, cite the repository and the exact revision used. Verified author and release metadata remain to be supplied."
+title: "Persistent Moral Governance Framework (PMGF)"
+type: software
+version: "0.1.0"
+license: Apache-2.0
+repository-code: "https://github.com/ChrisJokinen/pmgf"
+authors:
+  - name: "[Verified author attribution to be supplied by maintainers]"
+abstract: "An offline research prototype for deterministic policy review, bounded simulated actions, and auditable decision records."
+# TODO: Replace the attribution placeholder and add a verified release date.
+# No authors, identifiers, or release dates are inferred from repository access.

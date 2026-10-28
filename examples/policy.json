@@ -1,0 +1,9 @@
+{
+  "version": "0.1.0",
+  "approval_risk": 2,
+  "maximum_risk": 3,
+  "authorization_seconds": 60,
+  "missing_information_risk": 3,
+  "population_threshold": 100,
+  "resource_threshold": 100
+}
